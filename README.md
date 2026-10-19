@@ -56,6 +56,10 @@ An **LLM flow builder** — also called an **AI workflow builder**, **visual pro
 
 - ⚠️ [Disclaimer](#-disclaimer)
 
+- 🤝 [Support](#-support)
+
+- 📈 [Star History](#-star-history)
+
 
 
 ## 📊 Sector Overview & Market Dynamics
@@ -163,6 +167,14 @@ An **LLM flow builder** — also called an **AI workflow builder**, **visual pro
 - 🏗️ Self-hosted solutions require infrastructure expertise for production deployment (PostgreSQL, Docker/Kubernetes, reverse proxy).
 
 - ⚖️ Evaluate whether visual builders or code-first frameworks better fit your team's capabilities — visual tools accelerate prototyping but may constrain complex logic.
+
+
+
+## 🤝 Support
+
+Thank you so much for visiting this repository and for taking the time to explore it! If you find this curated list useful, it would mean a lot if you could **⭐ star** the repo, **🍴 fork** it, and **🔗 share** it with fellow builders — every single one genuinely helps the project grow and keeps these entries maintained.
+
+Want to go a step further? You can **☕ buy me a coffee** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) — thank you for your support! 🙏
 
 
 
