@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -39,6 +41,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+**Estimated market size:** the broader conversational-AI market these builders feed into is worth roughly **$14.3B in 2025** and is forecast to grow at **~23.8% CAGR (2026–2033)**, while the narrower no-code AI platform market — the closest proxy for visual LLM/agent flow builders — was **$4.28B in 2024** growing at **~30.2% CAGR (2025–2033)** (Grand View Research).
+
+**Concentration:** this is a **moderately fragmented, not winner-take-all** sector — hyperscalers (Dialogflow, Copilot Studio), funded vertical vendors (Cognigy, Kore.ai, Voiceflow, Retool, Stack AI) and a deep open-source tier (Flowise, Langflow, Dify, n8n) all hold real share, so no single platform dominates and enterprise buyers routinely run two or more; fragmentation is, however, slowly narrowing as incumbents acquire (e.g. NICE/Cognigy, Workday/Flowise).
 
 ## SaaS/Hosted Platforms
 
