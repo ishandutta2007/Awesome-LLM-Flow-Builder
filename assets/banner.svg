@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Awesome LLM Flow Builder</title>
+  <desc id="bannerDesc">Animated banner: flowing LLM workflow nodes, a drifting carousel of AI component pills and a pulsing activity chart, all behind the foreground title and subtitle.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="0.55" stop-color="#111a38">
+        <animate attributeName="stop-color" values="#111a38;#1b1440;#111a38" dur="16s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#08122a"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+
+    <linearGradient id="pillFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="titleGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <!-- reusable pill: 120 x 34 -->
+    <g id="pill">
+      <rect width="120" height="34" rx="17" fill="url(#pillFill)" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <circle cx="18" cy="17" r="4" fill="#38bdf8"/>
+    </g>
+  </defs>
+
+  <!-- ============ 1. background ============ -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- faint schematic grid -->
+  <g stroke="#60a5fa" stroke-opacity="0.07" stroke-width="1">
+    <path d="M0 60H1200M0 140H1200M0 220H1200M0 300H1200M0 380H1200"/>
+    <path d="M80 0V400M240 0V400M400 0V400M560 0V400M720 0V400M880 0V400M1040 0V400M1160 0V400"/>
+  </g>
+
+  <!-- ============ 2. flowing workflow edges (top band) ============ -->
+  <g fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="16 12" filter="url(#soft)">
+    <path d="M40 78 C 150 20, 250 120, 360 62">
+      <animate attributeName="stroke-dashoffset" from="56" to="0" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M360 62 C 470 10, 560 100, 670 52">
+      <animate attributeName="stroke-dashoffset" from="0" to="56" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M670 52 C 780 4, 880 108, 990 58">
+      <animate attributeName="stroke-dashoffset" from="56" to="0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M990 58 C 1060 34, 1110 76, 1160 60">
+      <animate attributeName="stroke-dashoffset" from="0" to="56" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- workflow nodes on the edges -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">
+    <g>
+      <rect x="18" y="60" width="86" height="34" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.8"/>
+      <text x="61" y="82" text-anchor="middle" fill="#e2e8f0">Trigger</text>
+      <circle cx="104" cy="77" r="6" fill="#38bdf8">
+        <animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <rect x="318" y="44" width="86" height="34" rx="9" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.8"/>
+      <text x="361" y="66" text-anchor="middle" fill="#e2e8f0">LLM</text>
+      <circle cx="404" cy="61" r="6" fill="#818cf8">
+        <animate attributeName="r" values="5;9;5" dur="2.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <rect x="628" y="34" width="86" height="34" rx="9" fill="#0f172a" stroke="#34d399" stroke-opacity="0.8"/>
+      <text x="671" y="56" text-anchor="middle" fill="#e2e8f0">Tools</text>
+      <circle cx="714" cy="51" r="6" fill="#34d399">
+        <animate attributeName="r" values="5;9;5" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <rect x="948" y="40" width="86" height="34" rx="9" fill="#0f172a" stroke="#f472b6" stroke-opacity="0.8"/>
+      <text x="991" y="62" text-anchor="middle" fill="#e2e8f0">Agent</text>
+      <circle cx="1034" cy="57" r="6" fill="#f472b6">
+        <animate attributeName="r" values="5;9;5" dur="2.7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- ============ 3. pulsing radar / evaluation rings (right side) ============ -->
+  <g transform="translate(1140,330)" fill="none" stroke="#38bdf8">
+    <circle r="18" stroke-opacity="0.55">
+      <animate attributeName="r" values="14;66" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="18" stroke-opacity="0.55">
+      <animate attributeName="r" values="14;66" dur="4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.7;0" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" fill="#38bdf8" stroke="none"/>
+  </g>
+
+  <!-- ============ 4. animated activity bars (left side) ============ -->
+  <g fill="#38bdf8" fill-opacity="0.75">
+    <rect x="34" y="330" width="14" height="52" rx="5">
+      <animate attributeName="height" values="52;88;34;52" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="330;294;348;330" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="56" y="312" width="14" height="70" rx="5" fill="#818cf8">
+      <animate attributeName="height" values="70;38;92;70" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="312;344;290;312" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="78" y="344" width="14" height="38" rx="5" fill="#34d399">
+      <animate attributeName="height" values="38;74;46;38" dur="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="344;308;336;344" dur="2.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="100" y="322" width="14" height="60" rx="5" fill="#f472b6">
+      <animate attributeName="height" values="60;96;44;60" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="322;286;338;322" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="122" y="336" width="14" height="46" rx="5" fill="#a78bfa">
+      <animate attributeName="height" values="46;66;36;46" dur="3.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="336;316;346;336" dur="3.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ============ 5. drifting pill carousel (bottom band) ============ -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -640 0; -640 0; 0 0" keyTimes="0;0.45;0.5;1" dur="17s" repeatCount="indefinite"/>
+      <g transform="translate(170,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">RAG</text></g>
+      <g transform="translate(310,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Prompt Chaining</text></g>
+      <g transform="translate(470,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Memory</text></g>
+      <g transform="translate(610,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Vector Store</text></g>
+      <g transform="translate(770,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">No-Code AI</text></g>
+      <g transform="translate(930,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Agents</text></g>
+      <g transform="translate(1090,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Workflows</text></g>
+      <!-- duplicate set for a seamless loop -->
+      <g transform="translate(1250,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">RAG</text></g>
+      <g transform="translate(1390,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Prompt Chaining</text></g>
+      <g transform="translate(1550,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Memory</text></g>
+      <g transform="translate(1690,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Vector Store</text></g>
+      <g transform="translate(1850,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">No-Code AI</text></g>
+      <g transform="translate(2010,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Agents</text></g>
+      <g transform="translate(2170,346)"><use href="#pill"/><text x="60" y="22" text-anchor="middle" fill="#e2e8f0">Workflows</text></g>
+    </g>
+  </g>
+
+  <!-- ============ 6. FOREGROUND: title block drawn last ============ -->
+  <g>
+    <ellipse cx="600" cy="192" rx="330" ry="86" fill="#38bdf8" opacity="0.16" filter="url(#titleGlow)">
+      <animate attributeName="opacity" values="0.10;0.24;0.10" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <rect x="150" y="112" width="900" height="156" rx="30" fill="#060a16" fill-opacity="0.78"/>
+    <rect x="150" y="112" width="900" height="156" rx="30" fill="none" stroke="#5b8cff" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="150" y="112" width="900" height="6" rx="3" fill="url(#line)"/>
+
+    <text x="600" y="192" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">Awesome LLM Flow Builder</text>
+    <text x="600" y="236" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" font-weight="500" fill="#a5b4fc">Visual AI Workflow &#183; Agent Orchestration &#183; No-Code LLM Tools</text>
+  </g>
+</svg>

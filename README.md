@@ -1,5 +1,7 @@
 # Awesome LLM Flow Builder — Visual AI Workflow, Agent Orchestration & No-Code LLM Tools
 
+![Animated banner: flowing LLM workflow nodes, drifting AI component pills and a pulsing activity chart behind the Awesome LLM Flow Builder title](assets/banner.svg)
+
 > Curated, regularly updated directory of **LLM flow builders**: visual **prompt-chaining** and **AI workflow** designers, **agent orchestration** platforms, **RAG pipeline** builders and **no-code AI app** builders — split into priced and compared hosted **SaaS** products and self-hostable **open-source** GitHub repositories.
 
 ## Top LLM Flow Builder Ecosystem
