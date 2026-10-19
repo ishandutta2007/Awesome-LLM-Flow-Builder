@@ -162,7 +162,11 @@ An **LLM flow builder** — also called an **AI workflow builder**, **visual pro
 
 - 🏗️ Self-hosted solutions require infrastructure expertise for production deployment (PostgreSQL, Docker/Kubernetes, reverse proxy).
 
-- ⚖️ Evaluate whether visual builders or code-first frameworks better fit your team's capabilities — visual tools accelerate prototyping but may constrain complex logic.## 📈 Star History
+- ⚖️ Evaluate whether visual builders or code-first frameworks better fit your team's capabilities — visual tools accelerate prototyping but may constrain complex logic.
+
+
+
+## 📈 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Flow-Builder&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Flow-Builder&type=date&legend=top-left)
 
