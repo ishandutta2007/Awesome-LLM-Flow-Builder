@@ -66,83 +66,55 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Open-Source GitHub Projects
 
+*Sorted by GitHub star count (descending). Every badge below is a live shields.io star badge (`style=social`, `color=white`) linking straight to that repository's stargazers page.*
 
+- **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) — Fair-code licensed workflow automation with 400+ integrations and native LLM/agent nodes (LangChain-powered); visual canvas for building, running and self-hosting agentic workflows.
 
-- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
+- **[Dify](https://github.com/langgenius/dify)** [![Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) — Open-source LLM app development platform: visual prompt-flow and workflow canvas, RAG pipeline builder, agent orchestration and observability, with a hosted cloud option.
 
-  **The leading open-source drag-and-drop LLM flow builder** — visually connect LLMs, prompts, tools, memory, and vector stores built on LangChain components. Self-hostable with custom node support .
+- **[Open WebUI](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) — Self-hosted ChatGPT-style interface with RAG, multi-user RBAC, and Ollama integration; 156K+ stars, 282M+ downloads.
 
+- **[Langflow](https://github.com/langflow-ai/langflow)** [![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) — Visual drag-and-drop builder for LangChain/RAG and agent flows with a Python backend; every flow is automatically exposed as an API endpoint.
 
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) — Deep-document-understanding RAG engine with a visual workflow editor for chunking, retrieval, citation and chat agents over complex enterprise data.
 
-- **[Windmill](https://github.com/windmill-labs/windmill)**  
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers) — All-in-one self-hosted (and desktop) RAG + agent application: unlimited documents, workspaces, agent skills and multi-provider LLM support.
 
-  **Open-source Retool and Temporal alternative** — turns Python, TypeScript, Go, Bash, and SQL scripts into webhooks, workflows, and UIs with auto-generated forms. Rust backend is 13x faster than Airflow; 16k+ stars .
+- **[Microsoft AutoGen](https://github.com/microsoft/autogen)** [![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers) — Microsoft's framework for multi-agent conversational applications — agents collaborate in chat to solve tasks, with AutoGen Studio offering a no-code visual agent designer.
 
+- **[CrewAI](https://github.com/crewAIInc/crewAI)** [![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) — Role-playing autonomous-agent framework that coordinates specialised agents into "crews", plus event-driven Flows for production pipelines.
 
+- **[Flowise](https://github.com/FlowiseAI/Flowise)** [![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers) — **The leading open-source drag-and-drop LLM flow builder**: visually connect LLMs, prompts, tools, memory and vector stores built on LangChain components. Self-hostable with custom node support.
 
-- **[Tiledesk](https://github.com/Tiledesk/tiledesk)**  
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** [![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers) — Low-level stateful orchestration library for multi-actor agent apps with durable execution and human-in-the-loop control — the graph runtime behind many visual builders.
 
-  **Open-source alternative to Voiceflow** — full-stack live chat with built-in chatbots, visual no-code flow designer, and LLM/GPT AI integration with graph-based conversation design .
+- **[Agno](https://github.com/agno-agi/agno)** [![Stars](https://img.shields.io/github/stars/agno-agi/agno?style=social&color=white)](https://github.com/agno-agi/agno/stargazers) — Lightweight framework for building multimodal agents with memory, knowledge and tools, including a no-code Agent Builder and built-in observability.
 
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** [![Stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=social&color=white)](https://github.com/CopilotKit/CopilotKit/stargazers) — Open-source framework for adding in-app chatbots, copilots and AI text generation to React applications.
 
+- **[Khoj](https://github.com/khoj-ai/khoj)** [![Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers) — Open-source AI assistant with local/cloud chat, semantic search and personal automation; self-hostable, AGPL-3.0 licensed.
 
-- **[Agent Flow Canvas](https://github.com/Jacobcdsmith/agent-flow-canvas)**  
+- **[Sim](https://github.com/simstudioai/sim)** [![Stars](https://img.shields.io/github/stars/simstudioai/sim?style=social&color=white)](https://github.com/simstudioai/sim/stargazers) — Open-source visual agent-workflow builder: drag-and-drop canvas to create, run and share AI agent apps, with a built-in playground and self-hosting.
 
-  **Lightweight browser-based visual builder for AI agent workflows** — no install, no login, BYO API keys. Drag nodes (Trigger, LLM, Tool, Router, Memory, Subagent) and generates runnable Python/JavaScript code. MIT licensed .
+- **[Rasa](https://github.com/RasaHQ/rasa)** [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) — Open-source conversational AI framework with NLU and dialogue management; official migration path from Google Dialogflow with emulation mode for JSON compatibility.
 
+- **[Windmill](https://github.com/windmill-labs/windmill)** [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) — **Open-source Retool and Temporal alternative**: turns Python, TypeScript, Go, Bash and SQL scripts into webhooks, workflows and UIs with auto-generated forms. Rust backend is 13x faster than Airflow; 18k+ stars.
 
+- **[Pipecat](https://github.com/pipecat-ai/pipecat)** [![Stars](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social&color=white)](https://github.com/pipecat-ai/pipecat/stargazers) — Framework for voice and multimodal conversational agents (realtime voice, video and text pipelines); BSD-2-Clause licensed.
 
-- **[Rivet](https://github.com/ironclad/rivet)**  
+- **[Botpress (Self-Hosted)](https://github.com/botpress/botpress)** [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) — Full open-source conversational AI platform with visual flow builder, NLU, knowledge bases and multi-channel deployment. Lightweight with zero external dependencies for easy self-hosting.
 
-  Open-source visual AI programming environment for building AI agent chains with graph-based editor and code generation .
+- **[Rivet](https://github.com/ironclad/rivet)** [![Stars](https://img.shields.io/github/stars/ironclad/rivet?style=social&color=white)](https://github.com/ironclad/rivet/stargazers) — Open-source visual AI programming environment for building AI agent chains with a graph-based editor and code generation.
 
+- **[Tiledesk](https://github.com/Tiledesk/tiledesk)** [![Stars](https://img.shields.io/github/stars/Tiledesk/tiledesk?style=social&color=white)](https://github.com/Tiledesk/tiledesk/stargazers) — **Open-source alternative to Voiceflow**: full-stack live chat with built-in chatbots, visual no-code flow designer and LLM/GPT AI integration with graph-based conversation design.
 
+- **[Multi-Agent Orchestrator](https://github.com/ParthivPandya/multi-agent-orchestrator)** [![Stars](https://img.shields.io/github/stars/ParthivPandya/multi-agent-orchestrator?style=social&color=white)](https://github.com/ParthivPandya/multi-agent-orchestrator/stargazers) — Open-source AI orchestrator with 8 autonomous agents, Vision-to-Code capability and SSE pipeline for real-time execution.
 
-- **[Open Agent Orchestrator](https://github.com/deshwalmahesh/open-agent-orchestrator)**  
+- **[Open Agent Orchestrator](https://github.com/deshwalmahesh/open-agent-orchestrator)** [![Stars](https://img.shields.io/github/stars/deshwalmahesh/open-agent-orchestrator?style=social&color=white)](https://github.com/deshwalmahesh/open-agent-orchestrator/stargazers) — No-code multi-agent orchestrator positioned as an open-source alternative to n8n, Gumloop and Relevance AI. Supports sub-agents as tools with hierarchical orchestration.
 
-  No-code multi-agent orchestrator positioned as open-source alternative to n8n, Gumloop, and Relevance AI. Supports sub-agents as tools with hierarchical orchestration .
+- **[Agent Flow Canvas](https://github.com/Jacobcdsmith/agent-flow-canvas)** [![Stars](https://img.shields.io/github/stars/Jacobcdsmith/agent-flow-canvas?style=social&color=white)](https://github.com/Jacobcdsmith/agent-flow-canvas/stargazers) — Lightweight browser-based visual builder for AI agent workflows: no install, no login, BYO API keys. Drag nodes (Trigger, LLM, Tool, Router, Memory, Subagent) and it generates runnable Python/JavaScript code. MIT licensed.
 
-
-
-- **[Multi-Agent Orchestrator](https://github.com/ParthivPandya/multi-agent-orchestrator)**  
-
-  Open-source AI orchestrator with 8 autonomous agents, Vision-to-Code capability, and SSE pipeline for real-time execution .
-
-
-
-- **[Botpress (Self-Hosted)](https://github.com/botpress/botpress)**  
-
-  Full open-source conversational AI platform with visual flow builder, NLU, knowledge bases, and multi-channel deployment. Lightweight with zero external dependencies for easy self-hosting .
-
-
-
-- **[Rasa](https://github.com/RasaHQ/rasa)**  
-
-  Open-source conversational AI framework with NLU and dialogue management; official migration path from Google Dialogflow with emulation mode for JSON compatibility .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[litGraph](https://github.com/litgraph/litgraph)** — Rust-powered graph execution framework for LLM tools with Python shim; ~1.3µs/node scheduling vs LangGraph's ~120µs. Supports OpenAI-compatible endpoints including Ollama .
-
-- **[Forge](https://github.com/forge-llm/forge)** — Minimal-core, zero-magic async framework for LLM agents. Flat execution model (agent → tool call → result) as transparent alternative to LangChain .
-
-- **[Open WebUI](https://github.com/open-webui/open-webui)** — Self-hosted ChatGPT-style interface with RAG, multi-user RBAC, and Ollama integration; 124K+ stars, 282M+ downloads .
-
-- **[Khoj](https://github.com/khoj-ai/khoj)** — Open-source AI app with local/cloud chat, semantic search, and automation. AGPL-3.0 licensed .
-
-- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** — Open-source framework for adding in-app chatbots and AI text generation to React applications .
-
-- **[Pipecat](https://github.com/pipecat-ai/pipecat)** — Framework for voice and multimodal conversational agents; BSD-2-Clause licensed .
-
-- **[jambonz](https://github.com/jambonz/jambonz)** — Open-source voice gateway for conversational AI; powers Cognigy, Kore.ai, and Vapi deployments with SIP trunking support .
-
-
-
-**Frameworks for building custom systems**: Combine **Flowise** for visual prototyping, **Windmill** for production workflow execution with auto-generated UIs, and **Tiledesk** for customer-facing chat automation. For agent orchestration, layer in **Agent Flow Canvas** for browser-based design and **Rivet** for graph-based AI programming. For voice AI, **jambonz** provides the telephony infrastructure .
+**Frameworks for building custom systems**: Combine **Flowise** for visual prototyping, **Windmill** for production workflow execution with auto-generated UIs, and **Tiledesk** for customer-facing chat automation. For agent orchestration, layer in **LangGraph** as the runtime, **AutoGen**/**CrewAI**/**Agno** for multi-agent teams, and **Rivet** or **Agent Flow Canvas** for graph-based design. For voice AI, **Pipecat** provides the realtime multimodal voice-agent stack.
 
 
 
